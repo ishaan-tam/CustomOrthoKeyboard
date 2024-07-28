@@ -16,8 +16,6 @@
             
             bindings = <
                 &kp Q     
-          
-             
             >;
         };
 
