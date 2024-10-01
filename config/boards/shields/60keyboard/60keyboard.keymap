@@ -14,10 +14,10 @@
 
         default_layer {
             bindings = <
-                &kp KC_ESC  &kp KC_Q    &kp KC_W    &kp KC_E   &kp KC_R   &kp KC_T   &kp KC_Y   &kp KC_U   &kp KC_I    &kp KC_O    &kp KC_P    &kp KC_BSPC
-                &kp KC_TAB  &kp KC_A    &kp KC_S    &kp KC_D   &kp KC_F   &kp KC_G   &kp KC_H   &kp KC_J   &kp KC_K    &kp KC_L    &kp KC_SCLN &kp KC_QUOT
-                &kp KC_LSFT &kp KC_Z    &kp KC_X    &kp KC_C   &kp KC_V   &kp KC_B   &kp KC_N   &kp KC_M   &kp KC_COMM &kp KC_DOT  &kp KC_SLSH &kp KC_ENT   
-                &kp KC_LCTL &kp KC_LGUI &kp KC_LALT &kp KC_SPC &kp KC_SPC &kp KC_SPC &kp KC_SPC &kp KC_LEFT &kp KC_DOWN &kp KC_UP &kp KC_RGHT &kp KC_ENT
+                &kp KC_Q    &kp KC_W    &kp KC_E    &kp KC_R     &kp KC_T    &kp KC_Y 
+                &kp KC_A    &kp KC_S    &kp KC_D    &kp KC_F     &kp KC_G    &kp KC_H
+                &kp KC_Z    &kp KC_X    &kp KC_C    &kp KC_V     &kp KC_B    &kp KC_N
+                &kp KC_LCTL &kp KC_LGUI &kp KC_LALT &kp KC_SPC   &kp KC_SPC  &kp KC_SPC
             >;
         };
     };
