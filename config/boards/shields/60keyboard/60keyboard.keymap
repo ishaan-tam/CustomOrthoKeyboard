@@ -14,7 +14,7 @@
 
         default_layer {
             bindings = <
-                &kp KC_1    &kp KC_2    &kp KC_3    &kp KC_4    &kp KC_5
+                &kp KC_Q    &kp KC_W    &kp KC_E    &kp KC_R    &kp KC_T
                 &kp KC_Q    &kp KC_W    &kp KC_E    &kp KC_R    &kp KC_T
                 &kp KC_A    &kp KC_S    &kp KC_D    &kp KC_F    &kp KC_G
                 &kp KC_Z    &kp KC_X    &kp KC_C    &kp KC_V    &kp KC_V
