@@ -1,6 +1,7 @@
-# 60-Key Custom Keyboard (4x12 Layout)
+# CustomOrthoKeyboard
 
-A custom 60% keyboard running on Zephyr RTOS with support for custom firmware, shields, and keymaps.
+A customizable 4x12 ortholinear keyboard powered by Zephyr RTOS, with support for custom shields, layouts, and future expansions.
+
 
 ## Features
 - 4x12 ortholinear layout
