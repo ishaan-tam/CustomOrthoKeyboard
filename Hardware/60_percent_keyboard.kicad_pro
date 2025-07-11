@@ -444,7 +444,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "60_percent_keyboard.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

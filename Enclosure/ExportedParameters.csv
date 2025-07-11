@@ -1,0 +1,14 @@
+Name,Unit,Expression,Value,Comments,Favorite
+Enclosure_length,mm,233.75 mm,233.75,,false
+Enclosure_width,mm,81.75 mm,81.75,,false
+Enclosure_fillet_radius,mm,2.75 mm,2.75,,false
+Enclosure_wall_thickness,mm,3 mm,3.00,,false
+Enclosure_base_thickness,mm,2 mm,2.00,,false
+Enclosure_height,mm,15.25 mm,15.25,,false
+Enclosure_slot_depth,mm,1.5 mm,1.50,,false
+Enclosure_slot_height,mm,1.8 mm,1.80,,false
+Enclosure_slot_distance_from_top,mm,2.5 mm,2.50,,false
+USB_depth_from_PCB,mm,5.9 mm,5.90,,false
+USB_offset_from_PCB,mm,10.155 mm,10.155,,false
+USB_length,mm,8.95 mm,8.95,,false
+USB_height,mm,3.25 mm,3.25,,false
