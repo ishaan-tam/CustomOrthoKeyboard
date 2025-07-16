@@ -11330,6 +11330,9 @@
   (gr_text "Ishaan Tamarapalli       60% Keyboard V1" (at 254.8 132.2) (layer "F.SilkS") (tstamp c8a7421d-89f6-4f17-96ca-8e55baaa62fa)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
+  (gr_text "hxw: 81.75 X 233.750 mm \ncurve radius: 2.75 mm\n\n\n" (at 56.75 175.75) (layer "User.1") (tstamp 753ea582-6e71-4114-b2e1-9457dcce54dc)
+    (effects (font (size 5 5) (thickness 0.5)) (justify left bottom))
+  )
 
   (segment (start 61.8 69.75) (end 63.855 69.75) (width 0.5) (layer "F.Cu") (net 4) (tstamp ad47ccf0-8483-498f-8c92-49fd09b85057))
   (segment (start 63.855 69.75) (end 64.655 68.95) (width 0.5) (layer "F.Cu") (net 4) (tstamp e03f33d7-7f4e-452b-857b-3d12dcd0e7b9))
