@@ -16,27 +16,27 @@
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "row2col";
         wakeup-source;
+        col-gpios
+             = <&pro_micro 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+             , <&pro_micro 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+             , <&pro_micro 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+             , <&pro_micro 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            ;  
 
         row-gpios
-             = <&pro_micro 2 GPIO_ACTIVE_HIGH>   // D2 - row1
-             , <&pro_micro 3 GPIO_ACTIVE_HIGH>   // D3 - row2
-             , <&pro_micro 4 GPIO_ACTIVE_HIGH>   // D4 - row3
-             , <&pro_micro 5 GPIO_ACTIVE_HIGH>;  // D5 - row4
-
-        col-gpios
-            = <&pro_micro 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // D6 - col1
-            , <&pro_micro 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // D7 - col2
-            , <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // D8 - col3
-            , <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  // D9 - col4
-            , <&pro_micro 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // D10 - col5
-            , <&pro_micro 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // D16 - col6
-            , <&pro_micro 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // D14 - col7
-            , <&pro_micro 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // D15 - col8
-            , <&pro_micro 18 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // D18 - col9
-            , <&pro_micro 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // D19 - col10
-            , <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // D20 - col11
-            , <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // D21 - col12
-            ;
+            = <&pro_micro 6 GPIO_ACTIVE_HIGH>   
+            , <&pro_micro 7 GPIO_ACTIVE_HIGH>  
+            , <&pro_micro 8 GPIO_ACTIVE_HIGH>  
+            , <&pro_micro 9 GPIO_ACTIVE_HIGH>  
+            , <&pro_micro 10 GPIO_ACTIVE_HIGH> 
+            , <&pro_micro 16 GPIO_ACTIVE_HIGH> 
+            , <&pro_micro 14 GPIO_ACTIVE_HIGH>
+            , <&pro_micro 15 GPIO_ACTIVE_HIGH>
+            , <&pro_micro 18 GPIO_ACTIVE_HIGH>
+            , <&pro_micro 19 GPIO_ACTIVE_HIGH>
+            , <&pro_micro 20 GPIO_ACTIVE_HIGH>
+            , <&pro_micro 21 GPIO_ACTIVE_HIGH>
+            ; 
     };
 
     default_transform: matrix-transform {
@@ -45,10 +45,11 @@
         columns = <12>;
 
         map = <
-            RC(0,0) RC(0,1) RC(0,2) RC(0,3) RC(0,4) RC(0,5) RC(0,6) RC(0,7) RC(0,8) RC(0,9) RC(0,10) RC(0,11)
-            RC(1,0) RC(1,1) RC(1,2) RC(1,3) RC(1,4) RC(1,5) RC(1,6) RC(1,7) RC(1,8) RC(1,9) RC(1,10) RC(1,11)
-            RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5) RC(2,6) RC(2,7) RC(2,8) RC(2,9) RC(2,10) RC(2,11)
-            RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(3,6) RC(3,7) RC(3,8) RC(3,9) RC(3,10) RC(3,11)
+            RC(11,0)  RC(10,0)  RC(9,0)  RC(8,0)  RC(7,0)  RC(6,0)  RC(5,0)  RC(4,0)  RC(3,0)  RC(2,0)  RC(1,0)  RC(0,0)
+            RC(11,1)  RC(10,1)  RC(9,1)  RC(8,1)  RC(7,1)  RC(6,1)  RC(5,1)  RC(4,1)  RC(3,1)  RC(2,1)  RC(1,1)  RC(0,1)
+            RC(11,2)  RC(10,2)  RC(9,2)  RC(8,2)  RC(7,2)  RC(6,2)  RC(5,2)  RC(4,2)  RC(3,2)  RC(2,2)  RC(1,2)  RC(0,2)
+            RC(11,3)  RC(10,3)  RC(9,3)  RC(8,3)  RC(7,3)  RC(6,3)  RC(5,3)  RC(4,3)  RC(3,3)  RC(2,3)  RC(1,3)  RC(0,3)
+
         >;
     };
 };
